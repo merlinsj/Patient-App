@@ -1,0 +1,47 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="50px"
+    android:gravity="center"
+    android:background="#D4E3F4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Patient Name"
+        android:background="@color/white"
+        android:id="@+id/pname"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:background="@color/white"
+        android:id="@+id/pass"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="#34B6C3"
+        android:textColor="@color/white"
+        android:layout_margin="30px"
+        android:id="@+id/logbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Got to register"
+        android:background="#388CCE"
+        android:layout_margin="30px"
+        android:textColor="@color/white"
+        android:id="@+id/regbtn"/>
+</LinearLayout>

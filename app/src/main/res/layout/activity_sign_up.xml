@@ -1,0 +1,111 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="50px"
+    android:gravity="center"
+    android:background="#D4E3F4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Patient Name"
+        android:background="@color/white"
+        android:id="@+id/PName"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Age"
+        android:background="@color/white"
+        android:inputType="number"
+        android:id="@+id/age"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="House Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter House Name"
+        android:background="@color/white"
+        android:id="@+id/hname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pincode"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Pincode"
+        android:background="@color/white"
+        android:id="@+id/pincd"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile Number"
+        android:background="@color/white"
+        android:inputType="number"
+        android:id="@+id/mobno"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:background="@color/white"
+        android:id="@+id/userNm"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:background="@color/white"
+        android:inputType="textPassword"
+        android:id="@+id/passwd"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password "
+        android:background="@color/white"
+        android:inputType="textPassword"
+        android:id="@+id/cnpass"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:layout_margin="20px"
+        android:background="#34B6C3"
+        android:id="@+id/regbt"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to login"
+        android:layout_margin="20px"
+        android:background="#388CCE"
+        android:id="@+id/logbt"/>
+
+</LinearLayout>
